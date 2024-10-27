@@ -11,7 +11,7 @@ public class HomeController {
         return "index";
     }
 
-    @GetMapping("/emp Save")
+    @GetMapping("/empSave")
     public String loadEmpSave() {
         return "emp_save";  // Thymeleaf will automatically look for emp_save.html
     }
